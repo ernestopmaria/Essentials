@@ -8,17 +8,18 @@
 }
 
 .title{
-    font-size: 30px;
+    font-size: 2rem;
     border-bottom: 4px solid green;
     width: max-content;
+
 }
 .subtitle{
-    font-size: 50px;
+    font-size: 3rem;
     color: rgb(2, 73, 2);
 }
 .service{
-    width: 500px;
-    height: 500px;
+    width: 29rem;
+    height: 29rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,3 +78,23 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:480px){
+    .container{
+        padding: 20px;
+    }
+    .service{
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+    }
+    .services{
+  
+        justify-content: center;
+    }
+    .title{
+        margin: auto;
+    }
+    .subtitle{
+        font-size: 35px;
+    }
+}

@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Services = ({services}) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Quais Serviços prestamos?</h1>
+      <h1 className={styles.title}>O que fazemos?</h1>
       <h1 className={styles.subtitle}>Conheça os nossos Produtos e Serviços</h1>
       <div className={styles.services}>
           {services.map(service=>(

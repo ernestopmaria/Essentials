@@ -6,8 +6,8 @@ import Circle from '../components/Circle'
 const contact = () => {
   return (
     <div className={styles.container}>
-        <Circle backgroundColor ="green"/>
-        <Circle backgroundColor ="yellow"/>
+        <Circle backgroundColor ="green" left ="-40vh" top="-20vh"/>
+        <Circle backgroundColor ="yellow" right="-30vh" bottom="-60vh"/>
         <h1 className={styles.title}>Deixe uma mensagem</h1>
         <form className={styles.form}>
             <input className={styles.inputS} placeholder="Nome"/>

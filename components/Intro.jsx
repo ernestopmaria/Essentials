@@ -7,7 +7,8 @@ const Intro = () => {
   return (
     <div className={styles.container}>
       <Circle backgroundColor="red" top="-50vh" left="-50vh"/>
-      <Circle backgroundColor="red"  right="-40vh"/>
+      <Circle backgroundColor="red"  right="-40vh" />
+      
         <div className={styles.card}>
             <h1 className={styles.title}>
                 <span className={styles.brand}>ESSENTIAL<br/> </span> 
@@ -22,12 +23,17 @@ const Intro = () => {
         
         
         <div className={styles.card}>
+      
         <Image src="/img/main4.webp"
         width="100%"
         height="100%"
         layout='fill'
         objectFit='cover'
+        display="mobile"
+        className='ola'
+      
         />
+     
         </div>
 
       
