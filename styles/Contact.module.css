@@ -47,3 +47,12 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width:480px){
+    .form{
+        width: 100%;      
+    }
+    .inputS:first-child{
+        margin: 0px;
+    }
+}

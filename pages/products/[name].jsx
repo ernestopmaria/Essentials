@@ -12,12 +12,13 @@ const Product = ({product}) => {
             <h1 className={styles.title}>Óleos Essenciais </h1>
             <p>{product.desc}</p>
             </div>
+            <span className={styles.productTitle}>Óleos disponíveis</span>
         <div className={styles.cardL}>
             {product.productsOil.map(p=>(
                     <div key={p.id} className={styles.productDetail}>                    
                        <Image src={`/img/${p.image}`}
                         className={styles.imageContainer}
-                        width="100%" height="100%"  
+                        width="90%" height="90%"  
                         layout='responsive'                  
                         objectFit='cover'/> 
                         
@@ -29,7 +30,7 @@ const Product = ({product}) => {
                         
                         className={styles.order}
                         >
-                        <FaWhatsapp  />
+                        <FaWhatsapp className={styles.icon}  />
                         Encomendar</a>
                     </div>
                 )
@@ -43,12 +44,13 @@ const Product = ({product}) => {
             <h1 className={styles.title}>Manteigas</h1>
             <p>{product.desc}</p>
             </div>
+            <span className={styles.productTitle}>Manteigas disponíveis</span>
         <div className={styles.cardL}>
             {product.productsButter.map(p=>(
                     <div key={p.id} className={styles.productDetail}>                    
                        <Image src={`/img/${p.image}`}
                        className={styles.imageContainer}
-                        width="100%" height="100%"                    
+                        width="90%" height="90%"                    
                         objectFit='cover'
                         layout='responsive'/> 
                         
@@ -60,7 +62,7 @@ const Product = ({product}) => {
                         
                         className={styles.order}
                         >
-                        <FaWhatsapp  />
+                        <FaWhatsapp className={styles.icon}  />
                         Encomendar</a>
                     </div>
                 )
