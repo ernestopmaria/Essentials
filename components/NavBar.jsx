@@ -29,7 +29,7 @@ const  NavBar =()=> {
         <Link href="/contact">CONTACTOS</Link>
         </li>
       </ul>
-      <div className={styles.hamburger} onClick={()=>setOpen(!open)}>
+      <div className={styles.hamburger} oncl onClick={()=>setOpen(!open)}>
         <div className={styles.line}/>
         <div className={styles.line}/>
         <div className={styles.line}/>
