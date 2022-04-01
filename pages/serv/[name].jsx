@@ -19,7 +19,8 @@ const Serv = ({service}) => {
                         className={styles.imageContainer}
                         width="100%" height="100%"  
                         layout='responsive'                  
-                        objectFit='cover'/> 
+                        objectFit='cover'
+                        alt=''/> 
                         
                    
                         <span>{p.name}</span>
@@ -50,7 +51,8 @@ const Serv = ({service}) => {
                        className={styles.imageContainer}
                         width="100%" height="100%"                    
                         objectFit='cover'
-                        layout='responsive'/> 
+                        layout='responsive'
+                        alt=''/> 
                         
                    
                         <span>{p.name}</span>

@@ -19,7 +19,8 @@ const Product = ({product}) => {
                        <Image src={`/img/${p.image}`}
                         className={styles.imageContainer}
                         width="90%" height="90%"  
-                        layout='responsive'                  
+                        layout='responsive'
+                        alt=''                  
                         objectFit='cover'/> 
                         
                    
@@ -50,9 +51,11 @@ const Product = ({product}) => {
                     <div key={p.id} className={styles.productDetail}>                    
                        <Image src={`/img/${p.image}`}
                        className={styles.imageContainer}
+                  
                         width="90%" height="90%"                    
                         objectFit='cover'
-                        layout='responsive'/> 
+                        layout='responsive'
+                        alt=''/> 
                         
                    
                         <span>{p.name}</span>
