@@ -11,7 +11,7 @@ const Intro = () => {
       
         <div className={styles.card}>
             <h1 className={styles.title}>
-                <span className={styles.brand}>ESSENTIAL<br/> </span> 
+                <span className={styles.brand}>ESSENTIALS<br/> </span> 
                     Beauty , Cosmetic & Personal Care
             </h1>
                 <p className={styles.desc}>
